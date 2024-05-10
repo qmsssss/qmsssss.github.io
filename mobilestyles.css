@@ -1,0 +1,58 @@
+/* CSS for mobile layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-image: url('diamond-plate-stainless-1.png'); /* Texture for the header */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url('diamond-plate-stainless-1.png'); /* Texture for the content area */
+    background-repeat: repeat; /* Adjust as needed */
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    background-image: url('diamond-plate-stainless-1.png'); /* Texture for the left side */
+    background-repeat: repeat; /* Adjust as needed */
+}
+
+.right-side {
+    padding: 20px;
+    background-image: url('diamond-plate-stainless-1.png');
+    background-repeat: repeat; /* Adjust as needed */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media screen and (min-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+    .right-side {
+        flex: 1;
+    }
+}
+
+/* Add more styles as needed */

@@ -1,0 +1,4 @@
+add mobile responsiveness either 
+whole new page and add mobile responsibeness create QR code that loads the mobile page instead
+
+password easter egg?

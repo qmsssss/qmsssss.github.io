@@ -47,3 +47,12 @@ function searchKingCobraJFS() {
     window.location.href = "https://www.youtube.com/results?search_query=King+Cobra+JFS";
 }
 
+function searchPatrykKornatowski() {
+    // Define your search functionality for Patryk Kornatowski
+    window.location.href = "https://www.youtube.com/results?search_query=Patryk+Kornatowski;"
+}
+
+
+        function goToMobilePage() {
+            window.location.href = "mobile.html";
+        }
