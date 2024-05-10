@@ -1,0 +1,89 @@
+/* Import the VHS tape-style font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Apply styles to the body */
+body {
+    font-family: 'Press Start 2P', sans-serif; /* Apply the VHS tape-style font to all text */
+    margin: 0;
+    padding: 0;
+    background-image: url('https://66.media.tumblr.com/a820dcfc128863b53d5041d985140d26/aabe55b6f2844f0e-7f/s540x810/457013407aa6e2fe3dbe7df2d73297e3f753cd69.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensures the background image stays fixed as the page scrolls */
+    text-align: center; /* Center align all text and inline elements */
+}
+
+/* Center the YouTube video */
+#player {
+    margin: 50px auto; /* Center the player horizontally and 50px from the top vertically */
+    width: 90%; /* Set the width to 90% of the viewport */
+    text-align: center; /* Center the contents horizontally */
+}
+
+/* Style for the header */
+h1 {
+    margin-top: 50px;
+    font-size: 2.5em;
+    color: #000000; /* Dark gray color */
+    text-shadow: 2px 2px 0 white; /* White outline */
+}
+
+/* Style for the buttons */
+button {
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000; /* Blue */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-shadow: 2px 2px 0 rgb(106, 96, 96); /* White outline */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    /* Adjust the font size of h1 for smaller screens */
+    h1 {
+        font-size: 2em;
+    }
+    /* Center buttons on smaller screens */
+    button {
+        margin-top: 10px;
+    }
+}
+
+/* Additional styles for left side GIF */
+.left-side {
+    margin-top: 100px; /* Adjust the margin to position the GIF lower */
+    width: 200px; /* Adjust the width of the left side */
+    background-color: #f0f0f0; /* Background color of the left side */
+    overflow: hidden; /* Hide any overflow content */
+    text-align: center;
+}
+
+.left-side img {
+    width: 100%; /* Ensure the GIF fills the left-side container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make sure it doesn't have extra space */
+    
+}
+
+.right-side {
+    flex-grow: 1; /* Allow the right side to grow and fill the remaining space */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
