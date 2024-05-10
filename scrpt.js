@@ -35,3 +35,15 @@ function loadRandomMedia() {
         });
     }
 }
+
+function searchChrisChan() {
+    // Define your search functionality for Chris Chan here
+    window.location.href = "https://www.google.com/search?q=Chris+Chan";
+}
+
+
+function searchKingCobraJFS() {
+    // Define your search functionality for King Cobra JFS here
+    window.location.href = "https://www.youtube.com/results?search_query=King+Cobra+JFS";
+}
+
